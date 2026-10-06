@@ -1,0 +1,853 @@
+{
+  "hero": {
+    "badgeText": "✨ 9xen 3.0 Platform Release",
+    "headline": "Autonomous Intelligence for Next-Gen Enterprises",
+    "subheadline": "We design, train, and deploy enterprise-grade AI models, autonomous workflow agents, and specialized RegTech SaaS platforms.",
+    "ctaPrimaryText": "Explore Platform & Services",
+    "ctaPrimaryLink": "#services",
+    "ctaSecondaryText": "Book Executive Demo",
+    "ctaSecondaryLink": "#contact",
+    "metrics": [
+      {
+        "label": "Enterprise Models Deployed",
+        "value": "450+"
+      },
+      {
+        "label": "Compliance Automation Accuracy",
+        "value": "99.8%"
+      },
+      {
+        "label": "Hours Saved Annually",
+        "value": "1.2M+"
+      },
+      {
+        "label": "Global Client Net Retention",
+        "value": "148%"
+      }
+    ],
+    "banners": [
+      {
+        "id": "h-1",
+        "badgeText": "✨ 9xen 3.0 Platform Release",
+        "headline": "Autonomous Intelligence for Next-Gen Enterprises",
+        "subheadline": "We design, train, and deploy enterprise-grade AI models, autonomous workflow agents, and specialized RegTech SaaS platforms.",
+        "ctaPrimaryText": "Explore Platform & Services",
+        "ctaPrimaryLink": "#services",
+        "ctaSecondaryText": "Book Executive Demo",
+        "ctaSecondaryLink": "#contact",
+        "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=2000"
+      },
+      {
+        "id": "h-2",
+        "badgeText": "🔒 Enterprise Governance",
+        "headline": "Secure, Cryptographic AI Orchestration",
+        "subheadline": "Deploy models that are audited, compliant, and governed by human-in-the-loop safety protocols.",
+        "ctaPrimaryText": "View Security Features",
+        "ctaPrimaryLink": "/platforms/9xen-os",
+        "ctaSecondaryText": "Contact Security Team",
+        "ctaSecondaryLink": "#contact",
+        "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=2000"
+      }
+    ],
+    "generatedHistory": [
+      {
+        "id": "img-1788515711855",
+        "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=85&w=2400",
+        "prompt": "Futuristic neural network mesh with cybernetic filaments",
+        "style": "Cinematic Sci-Fi",
+        "aspectRatio": "16:9",
+        "createdAt": "2026-09-04T09:55:11.855Z"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "srv-1",
+      "title": "Custom AI Development & Engineering",
+      "category": "ai_dev",
+      "shortDescription": "Bespoke LLMs, fine-tuned domain models, and custom AI architectures engineered for maximum precision and security.",
+      "fullDescription": "Our senior AI engineering team designs custom neural architectures, fine-tunes open & proprietary foundation models (Gemini, Llama, Claude), and deploys robust AI pipelines directly into your private cloud infrastructure.",
+      "iconName": "Cpu",
+      "features": [
+        "Domain-specific LoRA & RAG fine-tuning",
+        "Latency-optimized model quantization",
+        "Private Cloud & Air-Gapped deployment",
+        "End-to-end MLOps & model observability"
+      ],
+      "order": 1,
+      "highlighted": true
+    },
+    {
+      "id": "srv-2",
+      "title": "Autonomous Workflow Automation",
+      "category": "automation",
+      "shortDescription": "Multi-agent orchestration systems that automate complex multi-step business operations with human-in-the-loop controls.",
+      "fullDescription": "Replace manual business bottlenecks with self-correcting agentic workflows. Our autonomous agents handle complex document processing, ERP syncs, customer support escalation, and financial reconciliation.",
+      "iconName": "Zap",
+      "features": [
+        "Multi-agent task decomposition",
+        "Human-in-the-loop approval gates",
+        "ERP/CRM API tool execution",
+        "Real-time execution audit logs"
+      ],
+      "order": 2,
+      "highlighted": true
+    },
+    {
+      "id": "srv-3",
+      "title": "Data Curation & Model Training",
+      "category": "data_training",
+      "shortDescription": "High-quality synthetic dataset creation, RLHF data pipelines, and multi-modal alignment for enterprise training.",
+      "fullDescription": "High-performing AI starts with clean, domain-adapted data. We provide automated synthetic data generation, privacy-preserving deduplication, and expert human feedback loops (RLHF/DPO) tailored to your industry.",
+      "iconName": "Database",
+      "features": [
+        "Automated synthetic data generation",
+        "Differential privacy & PII masking",
+        "Domain-expert human feedback loops",
+        "Vector store indexing & hybrid search"
+      ],
+      "order": 3,
+      "highlighted": false
+    },
+    {
+      "id": "srv-4",
+      "title": "Custom Chatbot Platforms & Virtual Assistants",
+      "category": "chatbots",
+      "shortDescription": "Enterprise conversational agents with multi-turn reasoning, voice capabilities, and seamless CRM integrations.",
+      "fullDescription": "Deploy conversational agents that go beyond static Q&A. Our customized assistants understand multi-turn context, invoke database actions safely, and maintain strict brand voice compliance.",
+      "iconName": "MessageSquare",
+      "features": [
+        "Contextual retrieval-augmented generation (RAG)",
+        "Multi-lingual voice & text interfaces",
+        "Salesforce, Zendesk & Hubspot integration",
+        "Strict guardrails & hallucination prevention"
+      ],
+      "order": 4,
+      "highlighted": true
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "title": "9xen Agentic Core",
+      "slug": "agentic-core",
+      "category": "Autonomous Agents",
+      "tagline": "Autonomous Multi-Agent Workflow Engine for Enterprise Automation",
+      "shortDescription": "Self-governing AI agents that execute multi-step business routines, invoke tools safely, and collaborate autonomously.",
+      "fullDescription": "9xen Agentic Core is our flagship autonomous agent framework. Designed for complex enterprise processes, it coordinates specialized AI sub-agents with built-in reflection loops, human-in-the-loop review checkpoints, and enterprise role-based authorization.",
+      "iconName": "Bot",
+      "pricingModel": "Enterprise Cluster License",
+      "features": [
+        "Multi-agent consensus & task decomposition",
+        "Built-in human-in-the-loop approval gates",
+        "Native OAuth tool connections (Jira, GitHub, Salesforce)",
+        "Zero-trust isolated sandbox execution",
+        "Stateful memory & long-horizon reasoning"
+      ],
+      "specs": [
+        {
+          "label": "Latency",
+          "value": "< 250ms Task Dispatch"
+        },
+        {
+          "label": "Concurrency",
+          "value": "10,000 Active Agents"
+        },
+        {
+          "label": "Deployment",
+          "value": "AWS VPC / On-Prem Kubernetes"
+        },
+        {
+          "label": "Security",
+          "value": "SOC2 Type II & ISO27001"
+        }
+      ],
+      "badge": "Flagship Core",
+      "demoUrl": "/contact",
+      "order": 1,
+      "highlighted": true
+    },
+    {
+      "id": "prod-2",
+      "title": "Reguletter SaaS Compliance Engine",
+      "slug": "reguletter-engine",
+      "category": "RegTech Engine",
+      "tagline": "Continuous Regulatory Intelligence & Automated Auditing Platform",
+      "shortDescription": "Real-time regulatory tracking, policy gap analysis, and auditor-ready compliance report generation for SEC, GDPR, and FCA.",
+      "fullDescription": "Reguletter continuously monitors global regulatory changes across SEC, FINRA, FCA, GDPR, and EU AI Act. It analyzes firm policy documents against newly issued rules and flags potential compliance violations before regulators do.",
+      "iconName": "ShieldCheck",
+      "pricingModel": "Annual SaaS Subscription",
+      "features": [
+        "Automated SEC Rule 17a-4 & WORM data auditing",
+        "Real-time PII masking & vector deletion tracking",
+        "Automated gap analysis report generator",
+        "Custom regulatory feed connector & alerts",
+        "Auditor-grade immutable ledger logs"
+      ],
+      "specs": [
+        {
+          "label": "Sources Tracked",
+          "value": "1,400+ Global Regulators"
+        },
+        {
+          "label": "Audit Time Saved",
+          "value": "85% Cost Reduction"
+        },
+        {
+          "label": "Accuracy Rate",
+          "value": "99.9% Hallucination-Free"
+        },
+        {
+          "label": "Compliance",
+          "value": "FINRA / SEC / FCA"
+        }
+      ],
+      "badge": "RegTech Leader",
+      "demoUrl": "/contact",
+      "order": 2,
+      "highlighted": true
+    },
+    {
+      "id": "prod-3",
+      "title": "9xen Enterprise Gateway & Guardrail Proxy",
+      "slug": "enterprise-gateway",
+      "category": "AI Security",
+      "tagline": "Centralized AI Firewall, Prompt Injection Defense & Token Budgeting",
+      "shortDescription": "High-throughput security proxy that safeguards prompt submissions, masks sensitive data, and throttles API cost usage.",
+      "fullDescription": "Enterprise Gateway sits between your internal developer teams and external LLM APIs (Gemini, OpenAI, Anthropic). It automatically sanitizes user inputs for prompt injection attacks, redacts secrets and PII, and routes requests to the most cost-effective model.",
+      "iconName": "ShieldAlert",
+      "pricingModel": "Usage-Based API / Self-Hosted",
+      "features": [
+        "Real-time prompt injection & jailbreak blocklist",
+        "Automated DLP (Data Loss Prevention) secret filtering",
+        "Smart LLM router (saves up to 60% on token costs)",
+        "Granular per-department budget caps & rate limits",
+        "Unified telemetry, logging & latency dashboard"
+      ],
+      "specs": [
+        {
+          "label": "Added Overhead",
+          "value": "< 12ms Proxy Latency"
+        },
+        {
+          "label": "Throughput",
+          "value": "100k Req/Min per Node"
+        },
+        {
+          "label": "DLP Detection",
+          "value": "50+ PII & Secret Patterns"
+        },
+        {
+          "label": "Export",
+          "value": "Datadog, Splunk, CloudWatch"
+        }
+      ],
+      "badge": "Security Essential",
+      "demoUrl": "/contact",
+      "order": 3,
+      "highlighted": false
+    },
+    {
+      "id": "prod-4",
+      "title": "Synthia Neural Dataset Curation Tool",
+      "slug": "synthia-dataset-curator",
+      "category": "Neural Developer Tools",
+      "tagline": "Synthetic Data Curation & LLM Fine-Tuning Pipeline",
+      "shortDescription": "Generate high-fidelity domain synthetic training datasets with differential privacy and RLHF evaluation tools.",
+      "fullDescription": "Synthia streamlines dataset creation for training domain-specific models. It uses proprietary generative data synthesis techniques to augment scarce training samples, filter toxic outputs, and format datasets for LoRA / QLoRA training.",
+      "iconName": "Database",
+      "pricingModel": "Developer Team License",
+      "features": [
+        "Generative synthetic dataset generation",
+        "Automated RLHF preference pair creation",
+        "Differential privacy & data deduplication",
+        "Direct export to Hugging Face, S3 & GCS",
+        "Dataset quality scoring & bias detection"
+      ],
+      "specs": [
+        {
+          "label": "Synthesis Speed",
+          "value": "1M Tokens / Hour"
+        },
+        {
+          "label": "Privacy Standard",
+          "value": "Epsilon-Differential Privacy"
+        },
+        {
+          "label": "Formats",
+          "value": "JSONL, Parquet, HuggingFace"
+        },
+        {
+          "label": "Integration",
+          "value": "PyTorch, vLLM, Axolotl"
+        }
+      ],
+      "badge": "Data Tools",
+      "demoUrl": "/contact",
+      "order": 4,
+      "highlighted": false
+    },
+    {
+      "id": "prod-5",
+      "title": "Real Estate AI Chatbot",
+      "slug": "real-estate-chatbot",
+      "category": "Chatbots",
+      "tagline": "Intelligent Real Estate Property Concierge & Lead Generator",
+      "shortDescription": "AI-powered chatbot for real estate agencies to handle property inquiries, schedule viewings, and pre-qualify leads 24/7.",
+      "fullDescription": "Our Real Estate AI Chatbot integrates directly with your property CRM and MLS listings. It provides instant, accurate responses to potential buyers and renters, answers complex property questions, and automatically routes high-value leads to your agents.",
+      "iconName": "MessageSquare",
+      "pricingModel": "Monthly Subscription",
+      "features": [
+        "Direct MLS & CRM Integration",
+        "Automated Lead Qualification",
+        "24/7 Multi-lingual Property Inquiries",
+        "Virtual Viewing Scheduling",
+        "Conversational Mortgage Calculator"
+      ],
+      "specs": [
+        {
+          "label": "Integration",
+          "value": "Zillow, Salesforce, Hubspot"
+        },
+        {
+          "label": "Uptime",
+          "value": "99.9% SLA"
+        },
+        {
+          "label": "Languages",
+          "value": "40+ Supported"
+        },
+        {
+          "label": "Platform",
+          "value": "Web, WhatsApp, SMS"
+        }
+      ],
+      "badge": "New Release",
+      "demoUrl": "/contact",
+      "order": 5,
+      "highlighted": true
+    }
+  ],
+  "platforms": [
+    {
+      "id": "plat-1",
+      "name": "Reguletter RegTech SaaS",
+      "slug": "reguletter",
+      "tagline": "Automated Regulatory Intelligence & Compliance Auditing Platform",
+      "category": "RegTech",
+      "description": "Reguletter is our flaghip SaaS platform designed for global financial institutions, legal firms, and healthcare providers. It parses thousands of changing global regulations daily and cross-references your internal policies automatically.",
+      "keyFeatures": [
+        "Real-time regulatory tracking (SEC, FINRA, FCA, GDPR, HIPAA)",
+        "Automated policy gap analysis & discrepancy detection",
+        "One-click compliance reporting for auditors",
+        "AI-assisted legal document drafting & verification"
+      ],
+      "stats": [
+        {
+          "label": "Audit Time Reduction",
+          "value": "85%"
+        },
+        {
+          "label": "Regulatory Sources Monitored",
+          "value": "1,400+"
+        },
+        {
+          "label": "Risk Accuracy Rate",
+          "value": "99.9%"
+        }
+      ],
+      "badge": "Flagship Platform",
+      "iconName": "ShieldCheck",
+      "order": 1
+    },
+    {
+      "id": "plat-2",
+      "name": "9xen Orchestration OS",
+      "slug": "9xen-os",
+      "tagline": "Enterprise AI Agent Orchestration & Governance Engine",
+      "category": "Enterprise OS",
+      "description": "Central command console to manage, monitor, and enforce safety policies across all AI agents and LLM API calls operating inside your organization.",
+      "keyFeatures": [
+        "Unified LLM gateway with cost & latency routing",
+        "Enterprise prompt injection & safety firewall",
+        "Role-based access controls for AI tool invocation",
+        "Granular token spend analytics & department budgeting"
+      ],
+      "stats": [
+        {
+          "label": "API Latency Savings",
+          "value": "40%"
+        },
+        {
+          "label": "Blocked Threats",
+          "value": "100%"
+        },
+        {
+          "label": "Token Cost Optimization",
+          "value": "35%"
+        }
+      ],
+      "badge": "Infrastructure",
+      "iconName": "Layers",
+      "order": 2
+    }
+  ],
+  "team": [
+    {
+      "id": "tm-1",
+      "name": "Dr. Elena Rostova",
+      "role": "Chief Executive Officer & Founder",
+      "department": "Leadership",
+      "bio": "Former AI Research Lead at DeepMind & MIT CSAL. 15+ years pioneering neural network architectures and high-scale enterprise machine learning.",
+      "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600",
+      "socials": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com",
+        "github": "https://github.com"
+      },
+      "order": 1
+    },
+    {
+      "id": "tm-2",
+      "name": "Marcus Vance",
+      "role": "Chief Technology Officer",
+      "department": "Engineering",
+      "bio": "Ex-Lead Systems Architect at OpenAI and AWS Distributed Computing. Expert in distributed model training, GPU clusters, and high-throughput MLOps.",
+      "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
+      "socials": {
+        "linkedin": "https://linkedin.com",
+        "github": "https://github.com"
+      },
+      "order": 2
+    },
+    {
+      "id": "tm-3",
+      "name": "Sarah Chen",
+      "role": "Head of RegTech Product (Reguletter)",
+      "department": "Product",
+      "bio": "Former Legal Tech Strategy Director at Barclays. Specializes in financial regulatory intelligence, automated risk controls, and SaaS platform scaling.",
+      "photoUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=600",
+      "socials": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      },
+      "order": 3
+    },
+    {
+      "id": "tm-4",
+      "name": "David K. O'Connor",
+      "role": "VP of AI Solutions & Enterprise Engineering",
+      "department": "Engineering",
+      "bio": "Passionate about bridging cutting-edge LLM capabilities with concrete enterprise ROI for Fortune 500 manufacturing, retail, and tech clients.",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600",
+      "socials": {
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com"
+      },
+      "order": 4
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t-1",
+      "quote": "9xenai transformed our legal compliance operations. Reguletter saved our legal team over 2,000 manual review hours in the first quarter alone.",
+      "author": "Jonathan Sterling",
+      "role": "Chief Legal Officer",
+      "company": "Aegis Global Capital",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+      "rating": 5
+    },
+    {
+      "id": "t-2",
+      "quote": "The speed and precision of 9xenai custom chatbot engines allowed us to automate 70% of tier-1 customer inquiries without losing human empathy.",
+      "author": "Amara Vance",
+      "role": "VP of Customer Experience",
+      "company": "FinTech 9xen",
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+      "rating": 5
+    },
+    {
+      "id": "t-3",
+      "quote": "Unlike generic wrapper tools, 9xenai delivered a air-gapped model fine-tuned on our proprietary clinical data. Their engineering rigor is unmatched.",
+      "author": "Dr. Aris Thorne",
+      "role": "Head of Data Science",
+      "company": "BioHealth Innovations",
+      "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+      "rating": 5
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "bp-1",
+      "slug": "autonomous-agents-enterprise-architecture-2026",
+      "title": "Building Production-Ready Autonomous AI Agents in 2026",
+      "excerpt": "Discover key design patterns for multi-agent coordination, error recovery, human-in-the-loop safety gates, and deterministic tool usage.",
+      "body": "\n        <h2>The Shift from Chatbots to Agentic Systems</h2>\n        <p>In 2026, enterprise AI has evolved far beyond passive conversational chat widgets. Modern organizations require multi-agent workflows capable of autonomous decision-making, API synthesis, and multi-step execution.</p>\n        \n        <h3>Key Architectural Principles</h3>\n        <ul>\n          <li><strong>Deterministic Tool Invocation:</strong> Structured function calling with schema validation ensures models cannot emit malformed API payloads.</li>\n          <li><strong>Memory & Context Guarding:</strong> Utilizing vector databases alongside hierarchical windowing keeps agent reasoning sharply focused on active sub-tasks.</li>\n          <li><strong>Human-in-the-Loop Approval Gates:</strong> Any action with irreversible financial or legal impact requires explicit human cryptographic sign-off.</li>\n        </ul>\n\n        <blockquote>\"Autonomous agents without guardrails are a liability; with orchestrated governance, they are an exponential multiplier.\" — Dr. Elena Rostova</blockquote>\n\n        <h3>Implementing Regulated Workflows</h3>\n        <p>By coupling fine-tuned domain models with rigid execution boundaries, enterprises achieve 99%+ execution accuracy while reducing operational turnaround time from days to seconds.</p>\n      ",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200",
+      "tags": [
+        "AI Agents",
+        "Architecture",
+        "Enterprise Tech",
+        "LLMs"
+      ],
+      "publishDate": "2026-07-28",
+      "status": "published",
+      "featured": true,
+      "author": {
+        "name": "Marcus Vance",
+        "role": "Chief Technology Officer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200"
+      }
+    },
+    {
+      "id": "bp-2",
+      "slug": "reguletter-financial-compliance-ai",
+      "title": "Navigating Global Financial Regulations with AI Intelligence",
+      "excerpt": "How AI-driven regulatory intelligence is helping financial firms keep pace with rapidly shifting international regulatory standards.",
+      "body": "\n        <h2>The Compliance Crisis in Modern Finance</h2>\n        <p>With thousands of regulatory changes announced yearly across global jurisdictions like the SEC, FCA, and EU, manual compliance auditing is no longer sustainable.</p>\n        \n        <h3>Enter Reguletter</h3>\n        <p>9xenai's Reguletter platform automates rule ingested feeds, converting unstructured policy documents into structured knowledge graphs. Compliance officers receive instant impact assessments whenever regulations are updated.</p>\n      ",
+      "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200",
+      "tags": [
+        "RegTech",
+        "Compliance",
+        "Finance",
+        "SaaS"
+      ],
+      "publishDate": "2026-07-15",
+      "status": "published",
+      "featured": false,
+      "author": {
+        "name": "Sarah Chen",
+        "role": "Head of RegTech Product",
+        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200"
+      }
+    },
+    {
+      "id": "bp-3",
+      "slug": "custom-rag-versus-fine-tuning",
+      "title": "Fine-Tuning vs. Hybrid RAG: Selecting the Right Enterprise AI Strategy",
+      "excerpt": "A comprehensive comparative guide on when to fine-tune open weights vs. when to build retrieval-augmented generation architectures.",
+      "body": "\n        <h2>Understanding the Trade-Offs</h2>\n        <p>When enterprise engineering teams evaluate LLM deployment strategies, the debate frequently centers around Fine-Tuning versus Retrieval-Augmented Generation (RAG).</p>\n        <p>At 9xenai, we advocate for a hybrid pattern: fine-tuning model reasoning style and output formats while relying on vector databases for dynamic factual knowledge.</p>\n      ",
+      "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1200",
+      "tags": [
+        "MLOps",
+        "RAG",
+        "Engineering",
+        "LLM"
+      ],
+      "publishDate": "2026-06-30",
+      "status": "published",
+      "featured": false,
+      "author": {
+        "name": "David K. O'Connor",
+        "role": "VP of AI Solutions",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+      }
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "cs-1",
+      "slug": "global-bank-compliance-automation",
+      "title": "Automating Regulatory Audits for a Global Financial Institution",
+      "client": "Tier-1 Investment Bank",
+      "industry": "Banking & Financial Services",
+      "impactMetric": "85% Faster Audit Turnaround",
+      "summary": "Deployed Reguletter RegTech platform across 14 international branches, reducing compliance policy verification times from weeks to minutes.",
+      "body": "By ingesting thousands of internal policy documents alongside live SEC and FCA filings, the customer automated gap analysis with 99.9% precision.",
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200",
+      "tags": [
+        "RegTech",
+        "Compliance",
+        "Banking"
+      ]
+    },
+    {
+      "id": "cs-2",
+      "slug": "telecom-customer-support-agent",
+      "title": "Scaling Multi-turn Conversational AI for 10M Subscribers",
+      "client": "Apex Telecom",
+      "industry": "Telecommunications",
+      "impactMetric": "$4.2M Annual CX Savings",
+      "summary": "Engineered a multi-lingual conversational AI platform integrated directly with billing and network telemetry systems.",
+      "body": "The AI agent handled 72% of incoming queries autonomously, improving customer CSAT scores by 34 points within 60 days.",
+      "coverImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200",
+      "tags": [
+        "Custom Chatbots",
+        "Automation",
+        "CX"
+      ]
+    }
+  ],
+  "careers": [
+    {
+      "id": "car-1",
+      "title": "Senior AI Research Engineer (LLM & Agents)",
+      "department": "Engineering",
+      "location": "San Francisco, CA / Remote",
+      "type": "Full-time",
+      "description": "We are seeking an experienced AI Research Engineer to develop next-generation multi-agent coordination frameworks and fine-tuning pipelines.",
+      "requirements": [
+        "5+ years experience in Python, PyTorch, and CUDA model optimization",
+        "Demonstrated track record fine-tuning open-source LLMs (Llama, Mistral, Qwen)",
+        "Deep knowledge of agentic tool-use, RAG architectures, and evaluation benchmarks",
+        "M.S. or Ph.D. in CS, Machine Learning, or related quantitative field"
+      ],
+      "applyLink": "#contact",
+      "active": true
+    },
+    {
+      "id": "car-2",
+      "title": "Staff Full-Stack Engineer (React & Node.js)",
+      "department": "Engineering",
+      "location": "Remote (US/EU)",
+      "type": "Full-time",
+      "description": "Build responsive, real-time frontend interfaces and robust backend microservices for our flagship Reguletter platform and Admin CMS.",
+      "requirements": [
+        "6+ years expert experience with TypeScript, React, Next.js/Vite, Node.js/Express",
+        "Proficiency with Tailwind CSS, Framer Motion, and state management",
+        "Experience building enterprise REST/GraphQL APIs and PostgreSQL databases",
+        "Passion for high-craft UI/UX and accessible design systems"
+      ],
+      "applyLink": "#contact",
+      "active": true
+    },
+    {
+      "id": "car-3",
+      "title": "Enterprise Account Executive - RegTech SaaS",
+      "department": "Sales & Growth",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "description": "Drive high-growth enterprise sales for Reguletter with compliance leaders in Fortune 500 financial and legal organizations.",
+      "requirements": [
+        "5+ years enterprise B2B SaaS sales experience with $100k+ ACV deals",
+        "Background selling into legal, financial compliance, or risk management domains",
+        "Consistent history of exceeding quota targets"
+      ],
+      "applyLink": "#contact",
+      "active": true
+    }
+  ],
+  "contactSubmissions": [
+    {
+      "id": "sub-1",
+      "name": "Victoria Vance",
+      "email": "victoria@aegiscap.com",
+      "company": "Aegis Capital",
+      "subject": "Inquiry regarding Reguletter Enterprise Pilot",
+      "message": "Hello 9xen team, we would like to schedule a demonstration of Reguletter for our regulatory compliance group across US and UK branches.",
+      "createdAt": "2026-08-01T14:32:00.000Z",
+      "status": "unread"
+    }
+  ],
+  "settings": {
+    "companyName": "9xen AI",
+    "tagline": "Autonomous Intelligence & AI Engineering Platform",
+    "logoUrl": "/logo.svg",
+    "contactEmail": "contact@9xen.com",
+    "contactPhone": "+1 (800) 555-9XEN",
+    "address": "500 Howard Street, Suite 1200, San Francisco, CA 94105",
+    "footerText": "© 2026 9xen Technologies Inc. All rights reserved. Powered by Autonomous Intelligence.",
+    "socialLinks": {
+      "twitter": "https://x.com",
+      "linkedin": "https://linkedin.com",
+      "github": "https://github.com",
+      "discord": "https://discord.com"
+    },
+    "seo": {
+      "metaTitle": "9xen - Enterprise AI Engineering & Autonomous Platforms",
+      "metaDescription": "Bespoke AI development, autonomous workflow automation, custom chatbot engines, and Reguletter RegTech regulatory compliance SaaS by 9xen.",
+      "ogImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=1200"
+    },
+    "footerLinks": [
+      {
+        "label": "Platform & Services",
+        "tab": "services"
+      },
+      {
+        "label": "Products & Software",
+        "tab": "products"
+      },
+      {
+        "label": "Reguletter RegTech SaaS",
+        "tab": "platforms"
+      },
+      {
+        "label": "AI Blog & Insights",
+        "tab": "blog"
+      },
+      {
+        "label": "Client Case Studies",
+        "tab": "case-studies"
+      },
+      {
+        "label": "Careers & Hiring",
+        "tab": "careers"
+      },
+      {
+        "label": "Executive Contact",
+        "tab": "contact"
+      }
+    ],
+    "adminPasswordOverride": "admin123"
+  },
+  "footerPages": [
+    {
+      "id": "fp-privacy",
+      "slug": "privacy",
+      "title": "Privacy Policy",
+      "content": "<h3>1. Information Security & Client PII Protection</h3>\n<p>We process data under strict tenant isolation protocols. All user telemetry, processed tokens, and model embeddings are isolated within secure virtual private clouds (VPCs) with zero cross-tenant visibility.</p>\n<h3>2. Data Retention & Automatic Sanitization SLA</h3>\n<p>Documents uploaded to the Media Library are encrypted at rest with AES-256 keys. We retain user chat logs for audit-trail validation up to 90 days, after which they are permanently sanitized.</p>"
+    },
+    {
+      "id": "fp-terms",
+      "slug": "terms",
+      "title": "Terms of Service",
+      "content": "<h3>1. SLA Guarantees & Acceptable Use</h3>\n<p>By executing workflows on 9xen, you agree to our 99.9% API availability SLA. Automated agents must not be utilized for malicious or unaligned processes.</p>\n<h3>2. Intellectual Property Rights</h3>\n<p>The client retains full ownership of all custom fine-tuned weights, compiled datasets, custom tool adapters, and synthesized data assets created using the 9xen engine.</p>"
+    },
+    {
+      "id": "fp-security",
+      "slug": "security",
+      "title": "Security & SOC-2 Type II Compliance",
+      "content": "<h3>1. Multi-tenant Cryptographic Isolation</h3>\n<p>Our infrastructure runs under AWS IAM security policies. All server databases and uploaded static assets utilize industry-grade cryptographic keys managed via AWS KMS.</p>\n<h3>2. Annual SOC-2 Audits & Pentesting</h3>\n<p>9xen undergoes third-party audits annually to verify SOC-2 Type II compliance. Pentests are performed quarterly to discover and patch package dependencies proactively.</p>"
+    }
+  ],
+  "cloudCredits": [
+    {
+      "id": "cc-1",
+      "provider": "AWS",
+      "service": "EC2 t2.micro",
+      "limit": 750,
+      "used": 450,
+      "unit": "hours/mo",
+      "resetDate": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "cc-2",
+      "provider": "AWS",
+      "service": "S3 Standard",
+      "limit": 5,
+      "used": 2.1,
+      "unit": "GB",
+      "resetDate": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "cc-3",
+      "provider": "AWS",
+      "service": "RDS db.t3.micro",
+      "limit": 750,
+      "used": 720,
+      "unit": "hours/mo",
+      "resetDate": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "cc-4",
+      "provider": "GCP",
+      "service": "Cloud Run",
+      "limit": 2000000,
+      "used": 500000,
+      "unit": "requests",
+      "resetDate": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "cc-5",
+      "provider": "GCP",
+      "service": "Cloud SQL",
+      "limit": 100,
+      "used": 45,
+      "unit": "%",
+      "resetDate": "2026-09-01T00:00:00.000Z"
+    },
+    {
+      "id": "cc-6",
+      "provider": "GCP",
+      "service": "Cloud Storage",
+      "limit": 5,
+      "used": 4.8,
+      "unit": "GB",
+      "resetDate": "2026-09-01T00:00:00.000Z"
+    }
+  ],
+  "outreachQueue": [],
+  "outreachTemplates": [],
+  "webhookConfigs": [],
+  "newsletterSubscribers": [],
+  "popupBanner": {
+    "title": "Upcoming: Forex Trading Bot",
+    "subtitle": "AI-Powered Forex Trading",
+    "description": "Our new AI-driven Forex Trading Bot is coming soon. Get ready to automate your trades.",
+    "ctaText": "Learn More",
+    "ctaLink": "#",
+    "imageUrl": "https://images.unsplash.com/photo-1640340434855-6084a1f44093?auto=format&fit=crop&q=80&w=400",
+    "isActive": true
+  },
+  "aboutUs": {
+    "headline": "Pioneering Safe, Autonomous Intelligence",
+    "subheadline": "At 9xen, we believe the future belongs to enterprises that combine high-performing neural models with cryptographic safety guardrails and domain precision.",
+    "mission": "To democratize advanced AI safety and autonomous workflow engineering for regulated enterprise environments.",
+    "vision": "To build the foundational operating systems for the next decade of intelligent, self-governing business automation.",
+    "milestones": [
+      {
+        "year": "2026",
+        "title": "9xenai Established",
+        "desc": "Spun out of MIT CSAIL and DeepMind research labs to build compliance-first autonomous neural systems. 2026 established."
+      },
+      {
+        "year": "2027",
+        "title": "European Union Expansion",
+        "desc": "We will expand business and operations to the whole EU, launching localized data residency nodes and multi-lingual neural hubs."
+      },
+      {
+        "year": "2028",
+        "title": "Enterprise AI Product Suite",
+        "desc": "Expand more AI products, releasing advanced orchestrator interfaces, fine-tuned agentic models, and custom automated logic pipelines."
+      },
+      {
+        "year": "2029",
+        "title": "Global Scale & Outreach",
+        "desc": "Expanding business to the Middle East, Australia, and global markets, delivering robust air-gapped governance OS on private clouds."
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Domain Precision",
+        "subtitle": "We replace generic probabilistic wrappers with domain-adapted LoRA fine-tuning and retrieval-augmented generation architectures.",
+        "iconName": "Target"
+      },
+      {
+        "title": "Cryptographic Governance",
+        "subtitle": "Every tool invocation and API decision is governed by human-in-the-loop approval gates and real-time prompt injection firewalls.",
+        "iconName": "ShieldCheck"
+      },
+      {
+        "title": "Quantifiable ROI",
+        "subtitle": "Our Reguletter RegTech platform delivers an average 85% reduction in compliance review hours with 99.8% audit precision.",
+        "iconName": "Award"
+      }
+    ]
+  },
+  "chatSessions": [
+    {
+      "id": "session-default",
+      "title": "New Consultation",
+      "model": "9xen-omni-2.5",
+      "persona": "standard",
+      "updatedAt": 1789306437855,
+      "messages": [
+        {
+          "id": "welcome",
+          "role": "assistant",
+          "content": "Welcome to 9xen. I am your Enterprise Solutions & AI Systems Advisor.\n\nHow can I help you across our portfolio today? Ask me about **9xen Agentic Core**, **Reguletter Compliance SaaS**, **Custom LLM Fine-Tuning**, **Real Estate AI**, or our **Institutional Quant Trading Engine (AlphaBot Pro)**.",
+          "timestamp": "Online",
+          "suggestedFollowUps": [
+            "Overview of all 9xen Products & Services",
+            "How does 9xen Agentic Core orchestrate workflows?",
+            "What are the compliance capabilities of Reguletter?",
+            "How does the Quant Trading Engine enforce 4% max drawdown?"
+          ]
+        }
+      ],
+      "isPinned": false
+    }
+  ],
+  "admins": [],
+  "media": []
+}

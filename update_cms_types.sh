@@ -1,0 +1,1 @@
+sed -i 's/  systemConfig?: {/  chatbot?: {\n    enabled?: boolean;\n    greeting?: string;\n    placeholder?: string;\n    quickPrompts?: string[];\n    models?: { id: string; label: string; desc: string }[];\n  };\n  systemConfig?: {/' src/types/cms.ts

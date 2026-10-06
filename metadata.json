@@ -1,0 +1,6 @@
+{
+  "name": "9xen - Enterprise AI Platform",
+  "description": "Full-stack 9xen AI platform with headless CMS content management, custom AI services, products, blog, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
