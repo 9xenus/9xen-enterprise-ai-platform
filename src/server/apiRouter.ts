@@ -3750,3 +3750,18 @@ apiRouter.get('/crm/customer-custom-fields', authenticateAdmin, async (_req: Req
 apiRouter.post('/crm/customer-custom-fields', authenticateAdmin, async (req: Request, res: Response) => {
   try { res.json(await (db as any).saveCustomerCustomField?.(req.body)); } catch (e: any) { res.status(500).json({ error: e.message }); }
 });
+apiRouter.get('/cms/blocks', authenticateAdmin, async (_req: Request, res: Response) => {
+  try { res.json(await (db as any).getContentBlocks?.()); } catch (e: any) { res.status(500).json({ error: e.message }); }
+});
+apiRouter.post('/cms/blocks', authenticateAdmin, async (req: Request, res: Response) => {
+  try { res.json(await (db as any).saveContentBlock?.(req.body)); } catch (e: any) { res.status(500).json({ error: e.message }); }
+});
+apiRouter.get('/cms/forms', authenticateAdmin, async (_req: Request, res: Response) => {
+  try { res.json(await (db as any).getForms?.()); } catch (e: any) { res.status(500).json({ error: e.message }); }
+});
+apiRouter.post('/cms/forms', authenticateAdmin, async (req: Request, res: Response) => {
+  try { res.json(await (db as any).saveForm?.(req.body)); } catch (e: any) { res.status(500).json({ error: e.message }); }
+});
+apiRouter.get('/cms/workflows', authenticateAdmin, async (_req: Request, res: Response) => {
+  try { res.json(await (db as any).getWorkflows?.()); } catch (e: any) { res.status(500).json({ error: e.message }); }
+});

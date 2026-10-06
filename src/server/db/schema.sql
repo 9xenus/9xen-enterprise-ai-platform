@@ -752,3 +752,53 @@ CREATE TABLE IF NOT EXISTS customer_interactions (
   metadata JSONB,
   created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
+
+CREATE TABLE IF NOT EXISTS content_blocks (
+  id VARCHAR(120) PRIMARY KEY,
+  name VARCHAR(200) UNIQUE NOT NULL,
+  category VARCHAR(100),
+  html TEXT,
+  css TEXT,
+  js TEXT,
+  data JSONB DEFAULT '{}',
+  is_global BOOLEAN DEFAULT false,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS form_builder (
+  id VARCHAR(120) PRIMARY KEY,
+  name VARCHAR(200) NOT NULL,
+  slug VARCHAR(200) UNIQUE NOT NULL,
+  fields JSONB NOT NULL DEFAULT '[]',
+  settings JSONB DEFAULT '{}',
+  submissions_enabled BOOLEAN DEFAULT true,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS content_workflows (
+  id VARCHAR(120) PRIMARY KEY,
+  content_type VARCHAR(100) NOT NULL,
+  content_id VARCHAR(120) NOT NULL,
+  status VARCHAR(50) DEFAULT 'draft',
+  assigned_to VARCHAR(200),
+  reviewed_by VARCHAR(200),
+  review_notes TEXT,
+  due_date TIMESTAMP,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
+
+CREATE TABLE IF NOT EXISTS taxonomies (
+  id VARCHAR(120) PRIMARY KEY,
+  name VARCHAR(150) NOT NULL,
+  slug VARCHAR(150) NOT NULL,
+  type VARCHAR(80) NOT NULL,
+  parent_id VARCHAR(120),
+  description TEXT,
+  count INTEGER DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+  UNIQUE(slug, type)
+);

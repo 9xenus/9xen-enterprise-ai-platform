@@ -74,6 +74,7 @@ import { CategoriesManager } from './CategoriesManager';
 import { SeoGeoManager } from './SeoGeoManager';
 import { AutonomousAgentsManager } from './AutonomousAgentsManager';
 import { EnterpriseCustomersManager } from './EnterpriseCustomersManager';
+import { AdvancedCmsManager } from './AdvancedCmsManager';
 import { SiteContentManager } from './SiteContentManager';
 
 interface Props {
@@ -470,7 +471,9 @@ Include title, an executive excerpt, and a detailed 4-paragraph body analyzing n
               { id: 'media', label: 'Media Asset Library', icon: FolderOpen },
               { id: 'security', label: 'MFA & Audit Security', icon: Shield },
               { id: 'testimonials', label: 'Testimonials', icon: Star },
-                            { id: 'pages', label: 'Pages & Layout', icon: FileText },
+                                          { id: 'advancedCms', label: 'Advanced CMS', icon: Layout },
+              { id: 'pages', label: 'Pages & Layout', icon: FileText },
+
               { id: 'dynamicContent', label: 'Dynamic Content', icon: Database },
               { id: 'footerPages', label: 'Footer Pages', icon: FileText },
 
@@ -1190,6 +1193,7 @@ Include title, an executive excerpt, and a detailed 4-paragraph body analyzing n
           {activeTab === 'testimonials' && <TestimonialsManager />}
 
           {/* TAB: FOOTER PAGES */}
+          {activeTab === 'advancedCms' && <AdvancedCmsManager />}
           {activeTab === 'pages' && <PagesManager />}
           {activeTab === 'customers' && <EnterpriseCustomersManager />}
           {activeTab === 'agents' && <AutonomousAgentsManager />}
